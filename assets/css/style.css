@@ -49,7 +49,7 @@ header {
   }
   
 .hero-image {
-    background-image:url(./assets/images/02-hero-bg.jpg)
+    background-image:url(/assets/images/02-hero-bg.jpg)
     height: 100px;
     max-width: 100%;
     background-size: center;
@@ -93,7 +93,7 @@ h2 {
 
 .grid-item {
   display: grid;
-  background-color: red;
+  background-color: lightblue;
   padding: 20px;
   color:wheat;
   text-align: center;
