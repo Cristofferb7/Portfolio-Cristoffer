@@ -1,13 +1,15 @@
 * {
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
-    margin: 0px;
+    margin: 80px;
     padding: 0px;
+    margin-left: 250px;
 
 }
 
 main {
   display: flex;
+ 
   
 }
 
@@ -49,39 +51,53 @@ header {
   }
   
 .hero-image {
-    background-image:url(/assets/images/02-hero-bg.jpg)
     height: 100px;
     max-width: 100%;
-    background-size: center;
-    display: flex;
+    position: relative;
+    background-image:url("../images/02-hero-bg.jpg");
+    background-size: cover;
+   
+
+  }
+
+
+ #subtitle {
+background-color: rgba(0,0,0,0.8);
+color: aliceblue;
+font-size: 50px;
+position: absolute;
+bottom: 0px;
+right: 60px;
+
     
+    
+ }
 
-
-  }
-
-.hero-text {
-    padding: 10px;
-    background-color: wheat;
-    display: inline-flex;
-    align-self: flex-end;
-    margin: 0 0 20px 65rem;
-  }
-
-p {
-    margin: 0;
-    align-self: center;
-  }
-
-.container-aboutme {margin-right: 3rem;
+.container-aboutme {
+  margin-right: auto;
   display: flex;
   flex-direction: row;
+  margin-left: 220px;
+  margin-top: 60px;
+
 }
 
 h2 {
-  margin-right: 2rem;
-  font-size: xx-large;
+  font-family: monospace;
+  margin-right: 30px;
+  color: blue;
+  font-size: 300%;
   display: flex;
   text-align: right;
+  justify-content: flex-start;
+}
+
+h3 {
+  margin-right: 30px;
+  font-size: x-large;
+  display: flex;
+  text-align: right;
+  justify-content: flex-start;
 }
 
 .grid-container {
@@ -116,4 +132,14 @@ h2 {
 .grid-item:hover {
   filter: brightness(100%);
   
+}
+
+.Contact-me{
+  font-family: monospace;
+  margin-right: 30px;
+  color: blue;
+  font-size: 300%;
+  display: flex;
+  text-align: right;
+  justify-content:space-between
 }
