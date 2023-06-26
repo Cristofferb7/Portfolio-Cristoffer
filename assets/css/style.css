@@ -49,8 +49,8 @@ header {
   }
   
 .hero-image {
-    background-image:url(./assets/images/02-hero-bg.jpg);
-    height: 200px;
+    background-image:url(./assets/images/02-hero-bg.jpg)
+    height: 100px;
     max-width: 100%;
     background-size: center;
     display: flex;
