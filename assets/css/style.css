@@ -1,9 +1,9 @@
 * {
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
-    margin: 80px;
+    /* margin: 80px;
     padding: 0px;
-    margin-left: 250px;
+    margin-left: 250px; */
 
 }
 
@@ -56,8 +56,6 @@ header {
     position: relative;
     background-image:url("../images/02-hero-bg.jpg");
     background-size: cover;
-   
-
   }
 
 
@@ -73,13 +71,26 @@ right: 60px;
     
  }
 
-.container-aboutme {
-  margin-right: auto;
+.sections {
+  /* margin-right: auto;
   display: flex;
   flex-direction: row;
   margin-left: 220px;
-  margin-top: 60px;
+  margin-top: 60px; */
 
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sections h2 {
+  width: 20%;
+}
+
+.sections p, .sections section {
+  width: 70%;
 }
 
 h2 {
@@ -89,7 +100,10 @@ h2 {
   font-size: 300%;
   display: flex;
   text-align: right;
-  justify-content: flex-start;
+  justify-content: end;
+  border-right: 3px solid #445877;
+  width: 20%;
+  
 }
 
 h3 {
@@ -105,16 +119,46 @@ h3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 10px;
+  margin-left: 19.3%;
+}
+
+#image-1 {
+  width: 100%;
+  background-image: url(../images/02-portfolio-4.jpg);
+}
+
+#image-2 {
+  background-image: url(../images/02-portfolio-1.jpg);
+}
+
+
+#image-3 {
+  background-image: url(../images/02-portfolio-2.jpg);
+}
+
+#image-4 {
+  background-image: url(../images/02-portfolio-3.jpg);
+}
+
+#image-5 {
+  background-image: url(../images/02-run-buddy.jpg);
 }
 
 .grid-item {
-  display: grid;
+  /* display: grid; */
   background-color: lightblue;
   padding: 20px;
-  color:wheat;
+  color:blue;
   text-align: center;
   margin: 10px;
   filter: brightness(50%);
+  width: 50%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .grid-item:nth-of-type(1) {
@@ -122,11 +166,17 @@ h3 {
 }
 
 .text-on-picture {
-  position: absolute;
-  background-color: blueviolet;
-  padding: 30px;
+  /* position: absolute; */
+  background-color: lightblue;
+  width: 100px;
+  height: 75px;
+  text-align: center;
   display: flex;
-  margin-top: 250px;
+  justify-content: center;
+  align-items: center;
+  /* padding: 30px; */
+  /* display: flex; */
+  /* margin-top: 250px; */
 }
 
 .grid-item:hover {
@@ -134,12 +184,16 @@ h3 {
   
 }
 
-.Contact-me{
-  font-family: monospace;
-  margin-right: 30px;
-  color: blue;
-  font-size: 300%;
+article {
   display: flex;
-  text-align: right;
-  justify-content:space-between
+  flex-direction: row;
+  justify-content: center;
 }
+
+.footer {
+  display: flex;
+  text-align: center;
+}
+
+
+
