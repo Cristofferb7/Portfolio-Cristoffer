@@ -1,24 +1,29 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 main {
   display: flex;
+  
 }
 
 header {
   background-color: hsl(0, 1%, 19%);
-  padding: 20px;
+  padding: 20px 10px 10px 0px;
   color: rgb(8, 8, 7);
   display: flex;
   align-items: center;
   justify-content: space-between;
+ 
 }
 
 .main-header {
     font-size: 30px;
-    font-weight: bolder;
+    font-weight:600;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -44,9 +49,14 @@ header {
   }
   
 .hero-image {
-    background-image: url("pictures/greenwood.jpg");
-    height: 10em;
+    background-image:url(./assets/images/02-hero-bg.jpg);
+    height: 200px;
+    max-width: 100%;
+    background-size: center;
     display: flex;
+    
+
+
   }
 
 .hero-text {
@@ -62,7 +72,7 @@ p {
     align-self: center;
   }
 
-.container-aboutme {
+.container-aboutme {margin-right: 3rem;
   display: flex;
   flex-direction: row;
 }
@@ -83,7 +93,7 @@ h2 {
 
 .grid-item {
   display: grid;
-  background-color: green;
+  background-color: red;
   padding: 20px;
   color:wheat;
   text-align: center;
@@ -97,7 +107,7 @@ h2 {
 
 .text-on-picture {
   position: absolute;
-  background-color: green;
+  background-color: blueviolet;
   padding: 30px;
   display: flex;
   margin-top: 250px;
@@ -105,4 +115,5 @@ h2 {
 
 .grid-item:hover {
   filter: brightness(100%);
+  
 }
