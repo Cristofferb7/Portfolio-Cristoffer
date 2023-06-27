@@ -11,7 +11,7 @@ This is a mock up version of a portfolio that we are going to be adding content 
 
 
 ## Link
-[Cristoffer-Portfolio](https://cristofferb7.github.io/horiseon-1/)
+[Cristoffer-Portfolio](https://cristofferb7.github.io/Portfolio-Cristoffer/)
 
 ## Screenshot
 
