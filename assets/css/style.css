@@ -4,6 +4,7 @@
     /* margin: 80px;
     padding: 0px;
     margin-left: 250px; */
+    
 
 }
 
@@ -29,7 +30,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color:turquoise;
+  background-color:rgb(226, 226, 117);
   padding: 10px 10px 20px 40px;
   outline: inset;
 }
@@ -44,7 +45,7 @@ header {
   padding: 6px 8px 6px 16px;
   text-decoration: underline;
   font-size: 25px;
-  color: turquoise;
+  color: rgb(226, 226, 117);
   display: flex;
   flex-direction: column-reverse;
 
@@ -96,7 +97,7 @@ right: 60px;
 h2 {
   font-family: monospace;
   margin-right: 30px;
-  color: blue;
+  color:black;
   font-size: 300%;
   display: flex;
   text-align: right;
@@ -124,7 +125,7 @@ h3 {
 
 #image-1 {
   width: 100%;
-  background-image: url(../images/pngtree-creative-christmas-gift-box-decoration-green-texture-background-image_504643.jpg);
+  background-image: url(../images/Screenshot\ 2023-08-23\ at\ 5.49.46\ PM.png);
 }
 
 #image-2 {
@@ -133,22 +134,22 @@ h3 {
 
 
 #image-3 {
-  background-image: url(../images/02-portfolio-2.jpg);
+  background-image: url(../images/pngtree-creative-christmas-gift-box-decoration-green-texture-background-image_504643.jpg);
 }
 
 #image-4 {
-  background-image: url(../images/02-portfolio-3.jpg);
+  background-image: url(../images/weather\ ss.png);
 }
 
 #image-5 {
-  background-image: url(../images/02-run-buddy.jpg);
+  background-image: url(../images/cristofferb7.github.io_workday-scheduler_.png);
 }
 
 .grid-item {
   /* display: grid; */
   background-color: lightblue;
   padding: 20px;
-  color:blue;
+  color:black;
   text-align: center;
   margin: 10px;
   filter: brightness(50%);
@@ -204,7 +205,7 @@ margin-left: 150%;
 }
 
 .footerNav ul li a{
-  color:blue;
+  color:black;
   margin: 20px; 
   text-decoration:underline;
   font-size: 1.3em;
